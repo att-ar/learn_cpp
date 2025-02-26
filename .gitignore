@@ -1,0 +1,79 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.obj
+*.lib
+*.pdb
+*.exp
+*.ilk
+*.map
+*.sbr
+*.pch
+*.idb
+*.ncb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sdf
+*.opensdf
+*.ipch/
+*.build/
+build/
+bin/
+out/
+Debug/
+Release/
+cmake-build-*/
+CMakeFiles/
+_deps/
+
+# IDE specific files
+*.vscode/
+.idea/
+*.cbp
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.sln.user
+*.vcxproj.user
+*.tlog/
+
+# Temporary files
+*~
+\#*#
+*.swp
+*.bak
+*.tmp
+*.log
+*.dSYM/
+*.stackdump
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Packaging/distribution files
+*.deb
+*.rpm
+*.pkg
+*.dmg
+*.msi
+
+# Documentation build artifacts
+_build/
+html/
+latex/
+
+# Testing files
+*.gcda
+*.gcno
+
+.env # If you have environment variables in a file
+
+CMakeCache.txt
+
